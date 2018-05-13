@@ -8,6 +8,13 @@ You can use the [editor on GitHub](https://github.com/tomzyzhu/tomzyzhu.github.i
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
+
+#Header 1 Test
+##Header 2 Test
+###Header 3 Test
+
+
+
 ```markdown
 Syntax highlighted code block
 
