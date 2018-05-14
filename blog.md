@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Jekyll Theme - Blog Page - Massively
+title: THIS IS WHERE THE BLOG WOULD EXIST IF I HAD ENOUGH TIME TO PROGRAM IT
 description: Every great website starts with a great homepage. The homepage tells your viewers what your site is all about and gives your viewers a place to come back to.
 sitemap:
     priority: 1.0
