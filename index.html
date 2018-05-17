@@ -60,7 +60,7 @@ sitemap:
 				<!-- Featured Post -->
 				<article class="post featured">
 					<header class="major">
-									<h2><a href="#">WRITING RANDOM SHIT TO TEST</a></h2>
+									<h2><a >WRITING RANDOM SHIT TO TEST</a></h2>
 									<p>This is how you make paragraphs <br />
                     in the description of the page <br />
                     WOOOOOOOOOOOOOOOW. GR8M8 . </p>
@@ -77,8 +77,7 @@ sitemap:
 
 						<!-- Posts -->
 							<section class="posts">
-                {% for post in site.posts limit:2000 %}
-                {% assign mod3 = forloop.index | modulo: 2000 %}
+                {% for post in site.posts limit:4%}
   								<article>
   									<header>
   										<span class="date">{{ post.date | date_to_string }}</span>
