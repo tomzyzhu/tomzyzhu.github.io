@@ -28,3 +28,6 @@ sitemap:
 ## Inspiring Quote of the Year
   <blockquote>The investment with the highest interest is <b>education.</b></blockquote>
 
+  
+## What my parents have to say about school
+  <blockquote>Going to school is not a matter of can or will, <strong>but a matter of must</strong>.</blockquote>
