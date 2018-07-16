@@ -26,7 +26,7 @@ sitemap:
     →Hearthstone
 
 
--I have <b>seriously work on some side projects for job reasons</b>, as shown by this website
+-I have to <b>seriously work on some side projects for job reasons</b>, as shown by this website
 
 -I love problem solving and figuring things out by myself
 
