@@ -9,17 +9,26 @@ sitemap:
 ---
 ## About me
 
-<span class="image left"><img src="{{ "/images/me.png" | absolute_url }}" alt="" /></span>
+<span class="image left"><img src="{{ "/images/Cool.JPG" | absolute_url }}" alt="" /></span>
 
 -I'm From Bur Oak
 
 -I'm going to Waterloo next year
 
--I to video games in general. My current wife is Dell XPS 15 9550 with a NVIDIA GTX 960M and a i7-6770HQ. Not the best thing in the world... But I still love her <span class="image"><img src="{{ "/images/heart.png" | absolute_url }}" width="10" height="10" alt="" /></span>
+-I like to video games in general. My current wife is Dell XPS 15 9550 with a NVIDIA GTX 960M and a i7-6770HQ. Not the best thing in the world... But I still love her <span class="image"><img src="{{ "/images/heart.png" | absolute_url }}" width="10" height="10" alt="" /></span>
 
--I have <b>way to much time on my hand</b> , as shown by this website
+-Some games that I have enjoyed in the past include (but not limited to) :
 
--I need to work on my resume
+    →Enter the Gungeon
+    →Hollow Knight
+    →Ori and the Blind Forest
+    →Ratchet and Clank (Pretty much any installment of the franchise)
+    →Hearthstone
+
+
+-I have <b>seriously work on some side projects for job reasons</b>, as shown by this website
+
+-I love problem solving and figuring things out by myself
 
 -I have no girlfriend (surprise surprise)
 
@@ -28,6 +37,6 @@ sitemap:
 ## Inspiring Quote of the Year
   <blockquote>The investment with the highest interest is <b>education.</b></blockquote>
 
-  
+
 ## What my parents have to say about school
   <blockquote>Going to school is not a matter of can or will, <strong>but a matter of must</strong>.</blockquote>
