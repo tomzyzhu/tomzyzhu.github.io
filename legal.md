@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Credits
+title: Legal
 description: Having a massive list of every element of a theme is useful for quick referencing and ideas. Here is every component of Massively!
 sitemap:
     priority: 0.7
@@ -8,15 +8,18 @@ sitemap:
     changefreq: weekly
 ---
 <header class="major">
-	<h1>Credits<br />
-	</h1>
+	<h1>legal</h1>
 </header>
 
-<p><span class="image right"><img src="{{ "/images/massively.png" | absolute_url }}" alt="" /></span>
+<p>
+	<span class="image right">
+		<img src="{{ "/images/massively.png" | absolute_url }}" alt="" />
+	</span>
 	Special thanks to Massively (a &copy; HTML5 UP theme <a href="https://twitter.com/ajlkn">@ajlkn</a> for the original design)
 	and the Jekyll integrated version made by
-	<a href="http://jekyllthemes.org/themes/massively/">Somiibo</a> <a href="https://github.com/iwiedenm">(iwiedenm)</a>.
-	</p>
+	<a href="http://jekyllthemes.org/themes/massively/">Somiibo</a>
+	<a href="https://github.com/iwiedenm">(iwiedenm)</a>.
+</p>
 
 <p>
 Check out a demo of the Jekyll template website <a href="https://iwiedenm.github.io/jekyll-theme-massively/">here</a> or the HTML5 UP demo <a href="https://html5up.net/massively">here</a> .  

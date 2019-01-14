@@ -51,56 +51,29 @@ sitemap:
 				<div id="main">
 
 				<!-- Featured Post -->
-				<article class="post featured">
-					<header class="major">
-									<h2>Welcome to my personal website</h2>
-									<p>I am currently working on the look <br />
-                    as well as the content I want to put on here.<br />
-                    Please wait a little longer while I get content on here</p>
-								</header>
-								<span class="image fit"><img src="/images/View.JPG" alt=""></span></a>
-					<p>
-					For now, enjoy a nice picture of nature while this site is under contruction.
-					</p>
-					<p>
-						<i><em><b>I mean there is nothing here yet......</b></em></i>
-					</p>
-					<p>
-						check back later.
-					</p>
+					<article class="post featured">
+						<header class="major">
+										<h2>Welcome to my personal website</h2>
+										<p>I am currently working on the look <br />
+						as well as the content I want to put on here.<br />
+						Please wait a little longer while I get content on here</p>
+									</header>
+									<span class="image fit"><img src="/images/View.JPG" alt=""></span></a>
+						<p>
+						For now, enjoy a nice picture of nature while this site is under contruction.
+						</p>
+						<p>
+							<i><em><b>I mean there is nothing here yet......</b></em></i>
+						</p>
+						<p>
+							check back later.
+						</p>
 
-				</article>
+					</article>
 
-						<!-- Posts -->
-							<section class="posts">
-                {% for post in site.posts limit:4%}
-  								<article>
-  									<header>
-  										<span class="date">{{ post.date | date_to_string }}</span>
-  										<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
-  									</header>
-  									<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
-  									<p>{{ post.excerpt }}</p>
-  									<ul class="actions">
-  										<li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
-  									</ul>
-  								</article>
-
-                {% endfor %}
-
-							</section>
-
-						<!-- Footer 
 						
-						;;this contains a blog button from the jekyll template
-					
-							<footer>
-                <ul class="actions">
-                  <li><a href="{{ "/blog/" | absolute_url }}" class="button">My Blog</a></li>
-                </ul>
-							</footer>-->
 
-					</div>
+				</div>
 
 				<!-- Footer -->
         {% include foot.html %}

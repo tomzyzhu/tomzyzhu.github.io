@@ -1,0 +1,72 @@
+
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+  Jekyll integration by somiibo.com
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+    {% include head.html %}
+
+	</head>
+	<body class="is-loading">
+
+		<!-- Wrapper -->
+		<div id="wrapper" class="fade-in">
+
+			<!-- Header -->
+			<header id="header">
+				<a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
+			</header>
+
+
+			<!-- Nav -->
+
+            {% include nav.html %}
+
+
+			<!-- Main -->
+			<div id="main">
+
+				<article class="post featured">
+					<header class="major">
+						<h2>Side Projects</h2>
+						<p>Here is everything noteable I've done in my programming career</p>
+					</header>
+					</p>
+
+				</article>
+				<!-- Post -->
+				<section class="posts">
+						{% for post in site.posts %}
+					<article>
+						<header>
+							<h2>
+								<a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
+							</h2>
+						</header>
+						<a href="{{ post.url | absolute_url }}" class="image fit">
+							<img src="{{ post.image | absolute_url }}" alt="" />
+						</a>
+						<p>{{ post.excerpt }}</p>
+					</article>
+
+						{% endfor %}
+
+				</section>
+
+			</div>
+
+			<!-- Footer -->
+        {% include foot.html %}
+
+		</div>
+
+		<!-- Scripts -->
+			{% include scripts-main.html %}
+			{% include tracking.html %}
+
+	</body>
+</html>

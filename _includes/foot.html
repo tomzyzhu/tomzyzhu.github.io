@@ -1,15 +1,17 @@
 <footer id="footer">
 
   <section class="split contact">
-    <section class="alt">
-      <h3>Location</h3>
-      <p>{{site.location}}</p>
-    </section>
     <section>
       <h3>Phone</h3>
       <p><a href="tel:{{site.phone}}">{{site.phone}}</a></p>
     </section>
-    <section>
+	<section>
+      <h3>Location</h3>
+      <p>{{site.location}}</p>
+    </section>
+  </section>
+  <section class="split contact">
+	<section>
       <h3>Email</h3>
       <p><a href="mailto:{{site.email}}">{{site.email}}</a></p>
     </section>
@@ -18,6 +20,7 @@
       <ul class="icons alt">
         <li><a href="https://facebook.com/{{site.facebook}}" class="icon fa-facebook" rel="nofollow"><span class="label">Facebook</span></a></li>
         <li><a href="https://github.com/{{site.github}}" class="icon fa-github" rel="nofollow"><span class="label">GitHub</span></a></li>
+		<li><a href="https://linkedin.com/in/{{site.linkedin}}" class="icon fa-linkedin" rel="nofollow"><span class="label">LinkedIn</span></a></li>
       </ul>
     </section>
   </section>
@@ -26,7 +29,7 @@
 <div id="copyright">
   <ul>
 
-  <li><a href="{{ "/credits/" | absolute_url }}">Credits</a></li>
+  <li><a href="{{ "/legal/" | absolute_url }}">Legal</a></li>
 
   </ul>
 </div>

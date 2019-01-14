@@ -1,5 +1,5 @@
 # Site
-title:              Tom Zhenyan Zhu
+title:              Tom Zhu
 bio:                'Computer Science Student of 2023'
 description:        ""
 locale:             en_US
@@ -36,9 +36,9 @@ disqus_shortname:   default
 # Social
 analytics-id:       "default"
 twitter:            default
-facebook:           I.Know.You.Want.My.Name.But.Too.Bad
-instagram:          default
+facebook:           tom.zhu.3939
 github:             tomzyzhu
+linkedin:           tom-zhu-79ab90168
 
 # personal
 location:           Waterloo, Ontario
