@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Laptop-Advisor"
-date:   2019-01-11
+date:   2019-01-10
 excerpt: "Application generates suggestions on which laptops to buy based on user inputted data. Sorts and displays the 3 most suggested laptops based on a Weight Decision Matrix."
 image: "/images/Laptop-Advisor.PNG"
 github-link: "https://github.com/tomzyzhu/Laptop-Advisor"

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "DMOJ Solutions"
-date:   2019-01-10
+date:   2019-01-11
 excerpt: "Competitive programming practice for Canadian Computing Competition (CCC) on https://dmoj.ca/ "
 image: "/images/DMOJ.PNG"
 github-link: "https://github.com/tomzyzhu/DMOJ-solutions"
