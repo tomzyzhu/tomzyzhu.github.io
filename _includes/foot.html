@@ -30,6 +30,17 @@
   <ul>
 
   <li><a href="{{ "/legal/" | absolute_url }}">Legal</a></li>
+  <div style = "opacity: 0.5;" id="root"/></div>
+
+		<script type="text/babel">
+	function tick() {
+	  const element = (<li>{new Date().toLocaleTimeString()}</li>);
+	  ReactDOM.render(element, document.getElementById('root'));
+	}
+
+	setInterval(tick, 1000);
+	tick();
+		</script>
 
   </ul>
 </div>
