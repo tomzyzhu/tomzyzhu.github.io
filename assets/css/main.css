@@ -4482,5 +4482,12 @@
 
 	}
 	.circle {
-  border-radius: 50%;
-}
+		border-radius: 50%;
+	}
+	.centered {
+		margin: auto ;
+	}
+	.half-sized {
+		height: 50%;
+		width: 50%;
+	}

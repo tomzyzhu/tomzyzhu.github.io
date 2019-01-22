@@ -23,62 +23,74 @@ sitemap:
 	<body class="is-loading">
 
 		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+		<div id="wrapper" class="fade-in">
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>{{site.title}}</h1>
-						<span class="image"><img class="circle" src="{{ "/images/Face.png" | absolute_url }}" alt="" /></span></a>
-						<h2>{{site.bio}}</h2>
-						<p>hi</p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+			<!-- Intro -->
+			<div id="intro">
+				<h1>{{site.title}}</h1>
+				<span class="image">
+					<img class="circle centered half-sized" src="{{ "/images/Face.png" | absolute_url }}" alt="" />
+				</span>
+			</a>
+			<h2/>
+			<p>{{site.bio}}</p>
+			<ul class="actions">
+				<li>
+					<a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a>
+				</li>
+			</ul>
+		</div>
 
-				<!-- Header -->
-					<header id="header">
-						<a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
-					</header>
+		<!-- Header -->
+		<header id="header">
+			<a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
+		</header>
 
-				<!-- Nav -->
+		<!-- Nav -->
 
             {% include nav.html %}
 
-						
 
-				<!-- Main -->
-				<div id="main">
 
-				<!-- Featured Post -->
-					<article class="post featured">
-						<header class="major">
-										<h2>Welcome to my personal website</h2>
-										<p>I am currently working on the look <br />
+		<!-- Main -->
+		<div id="main">
+
+			<!-- Featured Post -->
+			<article class="post featured">
+				<header class="major">
+					<h2>Welcome to my personal website</h2>
+					<p>I am currently working on other projects for this site<br />
 						as well as the content I want to put on here.<br />
-						Please wait a little longer while I get content on here</p>
-									</header>
-									<span class="image fit"><img src="/images/View.JPG" alt=""></span></a>
-						<p>
-						For now, enjoy a nice picture of nature while this site is under contruction.
-						</p>
-						<p>
-							<i><em><b>I mean there is nothing here yet......</b></em></i>
-						</p>
-						<p>
-							check back later.
-						</p>
+					</p>
+				</header>
+				<span class="image fit">
+					<img src="/images/View.JPG" alt="">
+					</span>
+					<p>
+						If for some reason you can't find the navigation bar/menu, check out my <a href = "/side-projects/">completed projects</a>, 
+						<a href = "https://github.com/{{site.github}}">github</a>, or <a href = "{{ "/resume.pdf/" | absolute_url }}">resume</a>.
+					</p>
+					<ul class="actions fit">
+						<li>
+							<a href="/side-projects/" class="button special fit">Projects</a>
+						</li>
+						<li>
+							<a href="https://github.com/{{site.github}}" class="button special fit">Github</a>
+						</li>
+						<li>
+							<a href="{{ "/resume.pdf/" | absolute_url }}" class="button special fit">Resume</a>
+						</li>
+					</ul>
+				</article>
 
-					</article>
 
-						
-
-				</div>
-
-				<!-- Footer -->
-        {% include foot.html %}
 
 			</div>
+
+			<!-- Footer -->
+        {% include foot.html %}
+
+		</div>
 
 		<!-- Scripts -->
 		{% include scripts-main.html %}

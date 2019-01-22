@@ -1,6 +1,6 @@
 # Site
 title:              Tom Zhu
-bio:                'Computer Science Student of 2023'
+bio:                'University of Waterloo Computer Science Student of 2023'
 description:        ""
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
